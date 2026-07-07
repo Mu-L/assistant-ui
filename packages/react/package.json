@@ -1,6 +1,6 @@
 {
   "name": "@assistant-ui/react",
-  "version": "0.14.26",
+  "version": "0.14.27",
   "description": "Open-source TypeScript/React library for building production-grade AI chat experiences",
   "keywords": [
     "ai",
@@ -62,7 +62,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "@assistant-ui/core": "^0.2.20",
+    "@assistant-ui/core": "^0.2.21",
     "@assistant-ui/store": "^0.2.19",
     "@assistant-ui/tap": "^0.9.3",
     "@radix-ui/primitive": "^1.1.4",

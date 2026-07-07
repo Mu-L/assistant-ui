@@ -1,5 +1,18 @@
 # @assistant-ui/react
 
+## 0.14.27
+
+### Patch Changes
+
+- [#4723](https://github.com/assistant-ui/assistant-ui/pull/4723) [`7310d8d`](https://github.com/assistant-ui/assistant-ui/commit/7310d8da7a26881282b76c49e6f1a644eabcbe27) - fix: add MCP App host request error context ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#4665](https://github.com/assistant-ui/assistant-ui/pull/4665) [`6be3b67`](https://github.com/assistant-ui/assistant-ui/commit/6be3b6781b3ddd178208bc9de15326ab35d496d4) - feat: support disabled MCP toolkit entries ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#4667](https://github.com/assistant-ui/assistant-ui/pull/4667) [`c590a21`](https://github.com/assistant-ui/assistant-ui/commit/c590a21a63405f5a52a6d372e003afca06cf4a1e) - feat: support disabled MCP toolkit tools ([@Kinfe123](https://github.com/Kinfe123))
+
+- Updated dependencies [[`1b46551`](https://github.com/assistant-ui/assistant-ui/commit/1b465515f38be1d7d4e844ab5d95c90537745d15), [`7865f67`](https://github.com/assistant-ui/assistant-ui/commit/7865f6730d0a98e43bc27d5a0482bc43f2678de5), [`5a34e8c`](https://github.com/assistant-ui/assistant-ui/commit/5a34e8c2721b02e7a115d085bc09a447e0d3caa9), [`160b0af`](https://github.com/assistant-ui/assistant-ui/commit/160b0afa773b13a5e0f462cf05b7661baa1627f5), [`6be3b67`](https://github.com/assistant-ui/assistant-ui/commit/6be3b6781b3ddd178208bc9de15326ab35d496d4), [`c590a21`](https://github.com/assistant-ui/assistant-ui/commit/c590a21a63405f5a52a6d372e003afca06cf4a1e), [`e3aba86`](https://github.com/assistant-ui/assistant-ui/commit/e3aba86b7a788261d25921e4a58cebbe7a59fb44)]:
+  - @assistant-ui/core@0.2.21
+
 ## 0.14.26
 
 ### Patch Changes

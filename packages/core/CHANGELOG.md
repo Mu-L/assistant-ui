@@ -1,5 +1,23 @@
 # @assistant-ui/core
 
+## 0.2.21
+
+### Patch Changes
+
+- [#4722](https://github.com/assistant-ui/assistant-ui/pull/4722) [`1b46551`](https://github.com/assistant-ui/assistant-ui/commit/1b465515f38be1d7d4e844ab5d95c90537745d15) - fix(core): log the swallowed CloudFileAttachmentAdapter upload error instead of discarding it ([@ShobhitPatra](https://github.com/ShobhitPatra))
+
+- [#4714](https://github.com/assistant-ui/assistant-ui/pull/4714) [`7865f67`](https://github.com/assistant-ui/assistant-ui/commit/7865f6730d0a98e43bc27d5a0482bc43f2678de5) - fix(core): CloudFileAttachmentAdapter now fails uploads that return an HTTP error status instead of attaching a dead link ([@ShobhitPatra](https://github.com/ShobhitPatra))
+
+- [#4715](https://github.com/assistant-ui/assistant-ui/pull/4715) [`5a34e8c`](https://github.com/assistant-ui/assistant-ui/commit/5a34e8c2721b02e7a115d085bc09a447e0d3caa9) - fix: restore composer text and attachments when an attachment upload fails during send ([@ShobhitPatra](https://github.com/ShobhitPatra))
+
+- [#4741](https://github.com/assistant-ui/assistant-ui/pull/4741) [`160b0af`](https://github.com/assistant-ui/assistant-ui/commit/160b0afa773b13a5e0f462cf05b7661baa1627f5) - fix: ignore malformed local thread storage ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#4665](https://github.com/assistant-ui/assistant-ui/pull/4665) [`6be3b67`](https://github.com/assistant-ui/assistant-ui/commit/6be3b6781b3ddd178208bc9de15326ab35d496d4) - feat: support disabled MCP toolkit entries ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#4667](https://github.com/assistant-ui/assistant-ui/pull/4667) [`c590a21`](https://github.com/assistant-ui/assistant-ui/commit/c590a21a63405f5a52a6d372e003afca06cf4a1e) - feat: support disabled MCP toolkit tools ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#4650](https://github.com/assistant-ui/assistant-ui/pull/4650) [`e3aba86`](https://github.com/assistant-ui/assistant-ui/commit/e3aba86b7a788261d25921e4a58cebbe7a59fb44) - fix: make the default attachment adapter work without FileReader (Node, react-ink, SSR) by sharing a single getFileDataURL from @assistant-ui/core/internal, whose base64 fallback chunks large inputs and works on runtimes without Buffer ([@ShobhitPatra](https://github.com/ShobhitPatra))
+
 ## 0.2.20
 
 ### Patch Changes

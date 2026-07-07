@@ -1,5 +1,24 @@
 # @assistant-ui/react-ai-sdk
 
+## 1.3.41
+
+### Patch Changes
+
+- [#4730](https://github.com/assistant-ui/assistant-ui/pull/4730) [`41aaa6d`](https://github.com/assistant-ui/assistant-ui/commit/41aaa6de5d2872db5319e36e6de0ffdb385df927) - fix: preserve direct file parts in AI SDK message creation ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#4729](https://github.com/assistant-ui/assistant-ui/pull/4729) [`638692a`](https://github.com/assistant-ui/assistant-ui/commit/638692a0a7fe05d1cf50b80d472e148a971c1b5c) - fix: preserve image media types when creating AI SDK messages ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#4672](https://github.com/assistant-ui/assistant-ui/pull/4672) [`486c3c8`](https://github.com/assistant-ui/assistant-ui/commit/486c3c89c0f831ac0079bef0f4607e7e2945d19c) - feat: expose chat runtime resume errors ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#4667](https://github.com/assistant-ui/assistant-ui/pull/4667) [`c590a21`](https://github.com/assistant-ui/assistant-ui/commit/c590a21a63405f5a52a6d372e003afca06cf4a1e) - feat: support disabled MCP toolkit tools ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#4651](https://github.com/assistant-ui/assistant-ui/pull/4651) [`1224380`](https://github.com/assistant-ui/assistant-ui/commit/1224380f9f7432f6d1e448edc7fde4d307538569) - refactor: use addToolOutput instead of the deprecated addToolResult for tool results ([@ShobhitPatra](https://github.com/ShobhitPatra))
+
+- [#4650](https://github.com/assistant-ui/assistant-ui/pull/4650) [`e3aba86`](https://github.com/assistant-ui/assistant-ui/commit/e3aba86b7a788261d25921e4a58cebbe7a59fb44) - fix: make the default attachment adapter work without FileReader (Node, react-ink, SSR) by sharing a single getFileDataURL from @assistant-ui/core/internal, whose base64 fallback chunks large inputs and works on runtimes without Buffer ([@ShobhitPatra](https://github.com/ShobhitPatra))
+
+- Updated dependencies [[`1b46551`](https://github.com/assistant-ui/assistant-ui/commit/1b465515f38be1d7d4e844ab5d95c90537745d15), [`7865f67`](https://github.com/assistant-ui/assistant-ui/commit/7865f6730d0a98e43bc27d5a0482bc43f2678de5), [`5a34e8c`](https://github.com/assistant-ui/assistant-ui/commit/5a34e8c2721b02e7a115d085bc09a447e0d3caa9), [`160b0af`](https://github.com/assistant-ui/assistant-ui/commit/160b0afa773b13a5e0f462cf05b7661baa1627f5), [`6be3b67`](https://github.com/assistant-ui/assistant-ui/commit/6be3b6781b3ddd178208bc9de15326ab35d496d4), [`c590a21`](https://github.com/assistant-ui/assistant-ui/commit/c590a21a63405f5a52a6d372e003afca06cf4a1e), [`e3aba86`](https://github.com/assistant-ui/assistant-ui/commit/e3aba86b7a788261d25921e4a58cebbe7a59fb44)]:
+  - @assistant-ui/core@0.2.21
+
 ## 1.3.40
 
 ### Patch Changes

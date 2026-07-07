@@ -3569,7 +3569,7 @@ importers:
   packages/react:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.2.20
+        specifier: ^0.2.21
         version: link:../core
       '@assistant-ui/store':
         specifier: ^0.2.19
@@ -3725,7 +3725,7 @@ importers:
         specifier: ^3.0.211
         version: 3.0.211(react@19.2.7)(zod@4.4.3)
       '@assistant-ui/core':
-        specifier: ^0.2.20
+        specifier: ^0.2.21
         version: link:../core
       '@assistant-ui/store':
         specifier: ^0.2.19
@@ -3771,7 +3771,7 @@ importers:
         specifier: ^3.0.10
         version: 3.0.10
       '@assistant-ui/core':
-        specifier: ^0.2.19
+        specifier: ^0.2.21
         version: link:../core
       assistant-cloud:
         specifier: '*'
@@ -3870,7 +3870,7 @@ importers:
   packages/react-google-adk:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.2.19
+        specifier: ^0.2.21
         version: link:../core
       '@assistant-ui/store':
         specifier: ^0.2.19
@@ -3932,7 +3932,7 @@ importers:
   packages/react-ink:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.2.19
+        specifier: ^0.2.21
         version: link:../core
       '@assistant-ui/store':
         specifier: ^0.2.19
@@ -3984,7 +3984,7 @@ importers:
   packages/react-ink-markdown:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.2.20
+        specifier: ^0.2.21
         version: link:../core
       '@assistant-ui/store':
         specifier: ^0.2.19
@@ -4221,7 +4221,7 @@ importers:
   packages/react-native:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.2.19
+        specifier: ^0.2.21
         version: link:../core
       '@assistant-ui/store':
         specifier: ^0.2.19
@@ -4298,7 +4298,7 @@ importers:
   packages/react-opencode:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.2.20
+        specifier: ^0.2.21
         version: link:../core
       '@assistant-ui/store':
         specifier: ^0.2.19
@@ -4338,7 +4338,7 @@ importers:
   packages/react-pi:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.2.20
+        specifier: ^0.2.21
         version: link:../core
       '@assistant-ui/store':
         specifier: ^0.2.19

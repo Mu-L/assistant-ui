@@ -1,5 +1,13 @@
 # assistant-ui
 
+## 0.0.106
+
+### Patch Changes
+
+- [#4733](https://github.com/assistant-ui/assistant-ui/pull/4733) [`f1f18be`](https://github.com/assistant-ui/assistant-ui/commit/f1f18be476202178c5e6a62f041b588ee6a14887) - fix: clarify MCP install config parse errors ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#4727](https://github.com/assistant-ui/assistant-ui/pull/4727) [`3e5895c`](https://github.com/assistant-ui/assistant-ui/commit/3e5895c9529411906b2c99a2db210d51417c0737) - fix(cli): doctor now detects duplicate assistant-ui packages in pnpm node_modules layouts ([@ShobhitPatra](https://github.com/ShobhitPatra))
+
 ## 0.0.105
 
 ### Patch Changes

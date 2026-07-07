@@ -1,5 +1,11 @@
 # @assistant-ui/mcp-docs-server
 
+## 0.1.39
+
+### Patch Changes
+
+- [#4628](https://github.com/assistant-ui/assistant-ui/pull/4628) [`4ba22c5`](https://github.com/assistant-ui/assistant-ui/commit/4ba22c528aeaff7e43cb9623c7af96f0ddd4a2a8) - feat: return structuredContent from the docs, examples, and search tools ([@ShobhitPatra](https://github.com/ShobhitPatra))
+
 ## 0.1.38
 
 ### Patch Changes
