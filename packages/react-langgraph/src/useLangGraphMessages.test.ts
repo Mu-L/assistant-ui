@@ -3052,6 +3052,10 @@ describe("useLangGraphMessages", {}, () => {
     });
 
     expect(onComplete).toHaveBeenCalledTimes(1);
+    expect(onComplete).toHaveBeenCalledWith({
+      aborted: false,
+      error: undefined,
+    });
   });
 
   it("invokes onComplete on abort path", async () => {
@@ -3096,6 +3100,10 @@ describe("useLangGraphMessages", {}, () => {
 
     await waitFor(() => {
       expect(onComplete).toHaveBeenCalledTimes(1);
+    });
+    expect(onComplete).toHaveBeenCalledWith({
+      aborted: true,
+      error: undefined,
     });
   });
 
